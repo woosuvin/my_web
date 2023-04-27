@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-div {
+#home {
     margin: 10px; /* HTML 요소의 바깥 여백 */
     padding: 20px; /* HTML 요소의 테두리 안쪽 여백 */
     border-bottom: 2px solid white;
@@ -16,3 +16,86 @@ body {
 a:link { color: white; text-decoration: none; }
 a:visited { color: white; text-decoration: none; }
 a:active { color: white;}
+
+img {
+	border: 25px hidden #cce6ff;
+}
+
+header {
+	display: block;
+	margin: 100px;
+	
+}
+
+.menu * {
+    display: inline;
+}
+
+.menu li {
+    margin: 50px;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    font-size: 20px;
+    align-items: center;
+    text-align: center;
+    padding-top: 80px;
+    position: fixed;
+    top: 10px;
+    left: 0;
+    right: 0;
+    height: 80px;
+} 
+
+#info {
+	position: absolute;
+	height: 200px;
+	width: 400px;
+	margin: -300px 0px 0px -200px;
+	top:50%;
+	left: 50%;
+	padding: 5px;
+	list-style:none;
+    padding-left:0px;
+    font-size: 25px;
+    color: white;
+}
+
+#info li {
+	margin-bottom: 20px;
+}
+
+.parent{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    border-bottom: 2px solid white;
+    padding-top: 200px;
+}
+
+.first {
+    flex:1;
+    width:30%;
+    box-sizing: border-box;
+}
+
+.second{
+    flex:1;
+    margin: auto;
+    width:30%;
+    box-sizing: border-box;
+}
+
+.third{
+    flex:1;
+    width:30%;
+    box-sizing: border-box;
+}
+
+
+
